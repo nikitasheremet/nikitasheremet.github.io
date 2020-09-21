@@ -1,3 +1,7 @@
-console.log("var/const/let myName is accessible here", window.myName);
-myName.innerHTML = "Nikita Sheremet";
-document.body.prepend(myName);
+const createHeader = (value) => {
+  const newHeader = document.createElement("h1");
+  newHeader.innerHTML = value;
+  return newHeader;
+};
+
+export { createHeader };
