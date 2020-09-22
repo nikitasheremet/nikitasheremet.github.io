@@ -4,4 +4,4 @@ const createHeader = (value) => {
   return newHeader;
 };
 
-module.exports = { createHeader };
+export { createHeader };
