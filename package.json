@@ -2,9 +2,10 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "server.js",
-  "main": "node server.js",
+  "main": "nodemon server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
